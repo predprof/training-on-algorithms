@@ -1,12 +1,18 @@
-def equal(l, s1, s2):
-    k = 0
-    while k < l and s1[k] == s2[k]:
-        k += 1
+# def h_func(string, length, harr, xarr, r, d):
+#     for i in range(1, length + 1):
+#         harr[i] = (harr[i - 1] * d + ord(string[i - 1])) % r
+#         xarr[i] = (xarr[i - 1] * d) % r
+#     return harr, xarr
 
-    if k == l:
-        return 'yes'
-    else:
-        return 'no'
+# def equal(l, s1, s2):
+#     k = 0
+#     while k < l and s1[k] == s2[k]:
+#         k += 1
+#
+#     if k == l:
+#         return 'yes'
+#     else:
+#         return 'no'
 
 
 def isequal(l, from1, from2):
